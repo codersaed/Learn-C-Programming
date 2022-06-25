@@ -8,7 +8,7 @@ int main(){
 
 };
 
-/*Variants for loop */
+/*Variants for loop*/
 int main(){
 
  for (int i=1, n=9; i<=n; i++, n--) {
@@ -31,6 +31,18 @@ int main(){
  printf("final sum = %d\n", sum);
 
 };
+
+
+int main() {
+ int n;
+ scanf("%d", &n);
+
+ for(int i=1; i<=n; i++){
+    if(n%i == 0){
+        printf("%d", i);
+    }
+ }
+}
 
 
 
